@@ -5,6 +5,8 @@
 }
 
 body{
+    height: 100vh;
+    @include flex(column, space-between, none);
     font-family: $font_family;
     font-size: $font_size;
 }
