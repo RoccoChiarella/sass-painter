@@ -1,0 +1,33 @@
+header{
+    background-color: #000000;
+    .header-top{
+        padding: 10px 15px;
+        ul{
+            @include flex(row, flex-end, center);
+            li{
+                padding: 0 15px;
+                i{
+                    color: $icon_color;
+                }
+                a{
+                    color: $font_color_grey;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .header-bottom{
+        padding: 10px 15px;
+        ul{
+            list-style: none;
+            @include flex(row, space-around, center);
+            li{
+                a{
+                    color: $font_color_white;
+                }
+            }
+        }
+    }
+}
