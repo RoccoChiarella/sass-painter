@@ -7,12 +7,15 @@ header{
             li{
                 padding: 0 15px;
                 i{
+                    font-size: 15px;
                     color: $icon_color;
                 }
                 a{
+                    margin-left: 3px;
                     color: $font_color_grey;
                     &:hover{
                         text-decoration: underline;
+                        color: $font_color_white;
                     }
                 }
             }
@@ -26,6 +29,13 @@ header{
             li{
                 a{
                     color: $font_color_white;
+                    img{
+                        width: 100%;
+                    }
+                }
+                i{
+                    font-size: 9px;
+                    color: $font_color_grey;
                 }
             }
         }

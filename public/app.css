@@ -38,15 +38,18 @@ header .header-top ul li {
 }
 
 header .header-top ul li i {
+  font-size: 15px;
   color: #009CFF;
 }
 
 header .header-top ul li a {
+  margin-left: 3px;
   color: #989898;
 }
 
 header .header-top ul li a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 header .header-bottom {
@@ -63,5 +66,14 @@ header .header-bottom ul {
 
 header .header-bottom ul li a {
   color: white;
+}
+
+header .header-bottom ul li a img {
+  width: 100%;
+}
+
+header .header-bottom ul li i {
+  font-size: 9px;
+  color: #989898;
 }
 
